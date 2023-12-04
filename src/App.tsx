@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
+import React from 'react';
+import TopBar from './components/TopBar'
+const App: React.FC = () => {
 
   return (
+    <div>
+      <TopBar />
+      <h1>Welcome to BAC-Archive !</h1>
+    </div>
+  );
+};
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -32,4 +34,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
