@@ -1,12 +1,11 @@
-# React + TypeScript + Vite + Chakra-UI
+# React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, three official plugins are available:
+Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-- [@chakra-ui/react](https://github.com/chakra-ui/chakra-ui) for main ui components (here we only made a simple TopBar to test the library )
 
 ## Expanding the ESLint configuration
 
