@@ -1,16 +1,7 @@
 import React from 'react';
-import { Input, InputGroup, InputLeftElement } from '@chakra-ui/react';
+import { Input, InputGroup,  } from '@chakra-ui/react';
 
-interface SearchBarProps {
-  onSearch: (query: string) => void;
-}
-
-const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
-  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const query = event.target.value;
-    onSearch(query);
-  };
-
+const SearchBar: React.FC<SearchBarProps> = () => {
   return (
     <div>
       <InputGroup>
