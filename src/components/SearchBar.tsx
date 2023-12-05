@@ -1,6 +1,7 @@
 import React from 'react';
 import { Input, InputGroup,  } from '@chakra-ui/react';
 
+
 const SearchBar: React.FC<SearchBarProps> = () => {
   return (
     <div>
