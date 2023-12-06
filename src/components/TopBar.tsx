@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Spacer, Heading, Button, Avatar } from '@chakra-ui/react';
+import { Flex, Spacer, Heading, Avatar } from '@chakra-ui/react';
 import HamburgerMenu from './HamburgerMenu';
 
 

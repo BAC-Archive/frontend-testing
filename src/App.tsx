@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import  { ChakraProvider, Box, CSSReset } from '@chakra-ui/react';
 import TabLists from './components/TabLists';
 import TopBar from './components/TopBar';
@@ -10,7 +10,7 @@ const App: React.FC = () => {
     <ChakraProvider>
       <CSSReset />
       <Box>
-        <TopBar onMenuToggle={handleMenuToggle} />
+        <TopBar />
       </Box>
       <TabLists />
     </ChakraProvider>
