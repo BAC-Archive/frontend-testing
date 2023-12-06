@@ -5,13 +5,7 @@ import TopBar from './components/TopBar';
 
 
 const App: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-
+  
   return(
     <ChakraProvider>
       <CSSReset />
