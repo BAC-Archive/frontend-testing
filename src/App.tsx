@@ -1,17 +1,25 @@
-import React from 'react';
-import SearchBar from './components/SearchBar';
-import { Center, Box, Heading } from '@chakra-ui/react';
+import React, { useState } from 'react';
+import  { ChakraProvider, Box, CSSReset } from '@chakra-ui/react';
+import TabLists from './components/TabLists';
+import TopBar from './components/TopBar';
+
 
 const App: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+
   return(
-    <Box>
-      <Center>
-        <Heading>BAC-Archive</Heading> 
-      </Center>
-      <Center>
-        <SearchBar />
-      </Center>
-    </Box>
+    <ChakraProvider>
+      <CSSReset />
+      <Box>
+        <TopBar onMenuToggle={handleMenuToggle} />
+      </Box>
+      <TabLists />
+    </ChakraProvider>
   );
 };
 
