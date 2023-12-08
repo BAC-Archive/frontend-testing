@@ -6,6 +6,7 @@ import {
   MenuItem,
   Button,
 } from '@chakra-ui/react';
+import { Link } from 'react-router-dom'
 
 
 const HamburgerMenu: React.FC = () => {
@@ -16,7 +17,7 @@ const HamburgerMenu: React.FC = () => {
         Menu
       </MenuButton>
       <MenuList>
-        <MenuItem as='a' href='loginCard'>Login</MenuItem>   
+        <MenuItem as={Link} to='login'>Login</MenuItem>   
         <MenuItem>Settings</MenuItem>
         </MenuList>
       </Menu>
@@ -24,7 +25,3 @@ const HamburgerMenu: React.FC = () => {
   );
 }
 export default HamburgerMenu;
-
-
-
-
