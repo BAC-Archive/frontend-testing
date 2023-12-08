@@ -7,15 +7,17 @@ import {
   Button,
 } from '@chakra-ui/react';
 
+
 const HamburgerMenu: React.FC = () => {
+
   return(
     <Menu>
       <MenuButton as={Button}>
         Menu
       </MenuButton>
       <MenuList>
-          <MenuItem>Login</MenuItem>
-          <MenuItem>Settings</MenuItem>
+        <MenuItem as='a' href='login'>Login</MenuItem>   
+        <MenuItem>Settings</MenuItem>
         </MenuList>
       </Menu>
  
