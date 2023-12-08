@@ -18,8 +18,8 @@ const LoginCard: React.FC = () => {
         <VStack spacing={8} align="start" width="400px">
           <Heading mb={4}>Login</Heading>
           <FormControl>
-            <FormLabel>Email</FormLabel>
-            <Input type="email" placeholder="Enter your email" />
+            <FormLabel>Username</FormLabel>
+            <Input type="user" placeholder="Enter your Username" />
           </FormControl>
           <FormControl>
             <FormLabel>Password</FormLabel>

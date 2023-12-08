@@ -3,7 +3,6 @@ import  { ChakraProvider, Box, CSSReset } from '@chakra-ui/react';
 import TabLists from '../components/TabLists';
 import TopBar from '../components/TopBar';
 
-
 const App: React.FC = () => {
   
   return(
