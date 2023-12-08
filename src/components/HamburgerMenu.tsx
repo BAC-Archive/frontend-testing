@@ -16,7 +16,7 @@ const HamburgerMenu: React.FC = () => {
         Menu
       </MenuButton>
       <MenuList>
-        <MenuItem as='a' href='login'>Login</MenuItem>   
+        <MenuItem as='a' href='loginCard'>Login</MenuItem>   
         <MenuItem>Settings</MenuItem>
         </MenuList>
       </Menu>
